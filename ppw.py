@@ -1,10 +1,3 @@
-from nltk.tokenize import word_tokenize
-from nltk.corpus import stopwords
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.feature_extraction.text import CountVectorizer
-from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
-from sklearn.decomposition import LatentDirichletAllocation 
-
 import warnings
 import pandas as pd
 import numpy as np
@@ -13,6 +6,13 @@ import streamlit as st
 
 import re 
 import csv
+
+from nltk.tokenize import word_tokenize
+from nltk.corpus import stopwords
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.feature_extraction.text import CountVectorizer
+from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
+from sklearn.decomposition import LatentDirichletAllocation 
 
 nltk.download('stopwords')
 nltk.download('punkt')
