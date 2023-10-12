@@ -15,7 +15,6 @@ Data, Ekstraksi, lda, LDAkmeans, Model = st.tabs(['Data', 'Ekstraksi Fitur', 'LD
 with Data :
    st.title("""UTS PPW A""")
    st.text('Akhmad Amanulloh 200411100099')
-   st.subheader('Deskripsi Data')
    st.subheader('Data')
    data=pd.read_csv('https://raw.githubusercontent.com/akhmadamanulloh/pba/main/crawling_pta_labeled.csv')
    data
