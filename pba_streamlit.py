@@ -16,13 +16,6 @@ with Data :
    st.title("""UTS PPW A""")
    st.text('Akhmad Amanulloh 200411100099')
    st.subheader('Deskripsi Data')
-   st.text("""
-            1.Judul
-            2.Penulis
-            3.Dosen Pembimbing 1
-            4.Dosen Pembinbing 2
-            5.Abstrak
-            6.Label""")
    st.subheader('Data')
    data=pd.read_csv('https://raw.githubusercontent.com/akhmadamanulloh/pba/main/crawling_pta_labeled.csv')
    data
